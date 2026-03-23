@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tower Front — Official</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <img src="images/logo_icon.png" alt="TF Icon" class="nav-icon" />
+        <span class="nav-wordmark">TOWER FRONT</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#units">Units</a></li>
+        <li><a href="#modes">Modes</a></li>
+        <li><a href="https://www.roblox.com" target="_blank" class="btn-play">Play Free</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile nav overlay -->
+  <div class="mobile-nav" id="mobileNav">
+    <ul>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#gallery" class="mob-link">Gallery</a></li>
+      <li><a href="#units" class="mob-link">Units</a></li>
+      <li><a href="#modes" class="mob-link">Modes</a></li>
+      <li><a href="https://www.roblox.com" target="_blank" class="mob-link mob-play">Play Free on Roblox</a></li>
+    </ul>
+  </div>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-bg">
+      <img src="images/screenshot_castle.png" alt="" class="hero-bg-img" />
+      <div class="hero-overlay"></div>
+      <div class="scanlines"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-up delay-1">ROBLOX TOWER DEFENCE</p>
+      <div class="hero-logo-wrap reveal-up delay-2">
+        <img src="images/logo.png" alt="Tower Front" class="hero-logo" />
+      </div>
+      <p class="hero-sub reveal-up delay-3">
+        Fortify your defenses. Command your units.<br/>Defend the front at any cost.
+      </p>
+      <div class="hero-ctas reveal-up delay-4">
+        <a href="https://www.roblox.com" target="_blank" class="btn-primary">Play Now</a>
+        <a href="#about" class="btn-ghost">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label reveal-fade">Overview</div>
+      <div class="about-grid">
+        <div class="about-text reveal-left">
+          <h2>Defend. Upgrade.<br/><em>Dominate.</em></h2>
+          <p>Tower Front is a strategic tower defence experience built on Roblox. Place and command specialised units across diverse battlefields — from ancient castle ramparts to war-torn arenas. Each wave escalates the threat; every decision shapes the outcome.</p>
+          <p>With a deep upgrade system spanning four tiers, unique unit classes, and ever-expanding game modes, Tower Front rewards tactical precision above all else.</p>
+          <div class="stat-row">
+            <div class="stat-card glass">
+              <span class="stat-num">4+</span>
+              <span class="stat-label">Unit Tiers</span>
+            </div>
+            <div class="stat-card glass">
+              <span class="stat-num">∞</span>
+              <span class="stat-label">Wave Scaling</span>
+            </div>
+            <div class="stat-card glass">
+              <span class="stat-num">2+</span>
+              <span class="stat-label">Game Modes</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual reveal-right">
+          <div class="glass-frame">
+            <img src="images/logo_gold.png" alt="Tower Front Art" />
+            <div class="frame-corner tl"></div>
+            <div class="frame-corner tr"></div>
+            <div class="frame-corner bl"></div>
+            <div class="frame-corner br"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GALLERY ── -->
+  <section id="gallery">
+    <div class="container">
+      <div class="section-label reveal-fade">Screenshots</div>
+      <h2 class="section-title reveal-up">The Battlefield</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item large reveal-fade delay-1">
+          <img src="images/screenshot_castle.png" alt="Castle Map" />
+          <div class="gallery-caption glass">Castle Ramparts</div>
+        </div>
+        <div class="gallery-item reveal-fade delay-2">
+          <img src="images/screenshot_arena.png" alt="Arena Map" />
+          <div class="gallery-caption glass">Sandy Arena</div>
+        </div>
+        <div class="gallery-item reveal-fade delay-3">
+          <img src="images/concept_art.jpg" alt="Concept Art" />
+          <div class="gallery-caption glass">Concept — Desert Gate</div>
+        </div>
+        <div class="gallery-item reveal-fade delay-4">
+          <img src="images/boss.png" alt="Boss Model" />
+          <div class="gallery-caption glass">Stone Colossus Boss</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── UNITS ── -->
+  <section id="units">
+    <div class="container">
+      <div class="section-label reveal-fade">Roster</div>
+      <h2 class="section-title reveal-up">Unit Progression</h2>
+      <p class="section-sub reveal-up">Every unit evolves. From a rookie operative to a battle-hardened specialist — four tiers of upgrades transform your front line.</p>
+      <div class="units-showcase reveal-fade">
+        <img src="images/char_concepts.png" alt="Unit Tier Concepts Lv0–Lv4" class="units-img" />
+      </div>
+      <div class="tier-labels reveal-up">
+        <div class="tier glass"><span>Lv 0</span><p>Recruit</p></div>
+        <div class="tier glass"><span>Lv 1</span><p>Operative</p></div>
+        <div class="tier glass"><span>Lv 2</span><p>Veteran</p></div>
+        <div class="tier glass"><span>Lv 3</span><p>Specialist</p></div>
+        <div class="tier glass"><span>Lv 4</span><p>Elite</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GAME MODES ── -->
+  <section id="modes">
+    <div class="container">
+      <div class="section-label reveal-fade">Modes</div>
+      <h2 class="section-title reveal-up">How You Play</h2>
+      <div class="modes-grid">
+        <div class="mode-card glass reveal-left">
+          <div class="mode-icon">⚔️</div>
+          <h3>Classic Defence</h3>
+          <p>Waves of enemies advance on your base. Deploy units strategically, manage resources, and fortify your positions before it's too late.</p>
+          <div class="mode-tag">Core Mode</div>
+        </div>
+        <div class="mode-card glass reveal-up">
+          <div class="mode-img-wrap">
+            <img src="images/external_influence.jpg" alt="External Influence" />
+          </div>
+          <div class="mode-icon">🔫</div>
+          <h3>External Influence</h3>
+          <p>A high-intensity alternate mode introducing new firepower and tactical scenarios. The rules change — adapt or fall.</p>
+          <div class="mode-tag featured">Special Mode</div>
+        </div>
+        <div class="mode-card glass reveal-right">
+          <div class="mode-icon">👑</div>
+          <h3>Boss Encounters</h3>
+          <p>Face colossal enemies with unique mechanics and phase-based behaviour. The Stone Colossus and others await those bold enough to challenge them.</p>
+          <div class="mode-tag">Challenge</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section id="cta">
+    <div class="container">
+      <div class="cta-inner glass reveal-up">
+        <img src="images/logo_neon.png" alt="Tower Front Neon" class="cta-neon" />
+        <h2>Ready to Defend the Front?</h2>
+        <p>Join thousands of players already holding the line. Free to play on Roblox.</p>
+        <a href="https://www.roblox.com" target="_blank" class="btn-primary large">Play Tower Front</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo_icon.png" alt="TF" class="footer-icon" />
+        <span>Tower Front</span>
+      </div>
+      <p class="footer-copy">© 2026 Tower Front. A Roblox experience. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://www.roblox.com" target="_blank">Roblox</a>
+        <a href="#">Discord</a>
+        <a href="#">Twitter / X</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
